@@ -34,43 +34,73 @@
 			margin-top: 12px
 			width: 300px
 
-@media (max-width: 767px)
-	.menu
-		position: fixed
-		flex-direction: column
-		top: 0
-		right: 0
-		width: 50%
-		height: 100vh
-		padding: 20px 15px
-		background-color: rgba(0, 0, 0, .8)
-		.menu_item
-			padding-right: 0
-			border: none
-		.menu_link
-			font-size: 20px
-
 // @media (max-width: 767px)
 // 	.menu
 // 		position: fixed
 // 		flex-direction: column
-// 		justify-content: center
-// 		align-items: center
 // 		top: 0
 // 		right: 0
-// 		// left:  -100%
-// 		width: 60%
+// 		width: 50%
 // 		height: 100vh
 // 		padding: 20px 15px
 // 		background-color: rgba(0, 0, 0, .8)
-
-// 		// transition: 0.8s all
-// 		// &_active
-// 		// 	left: 0
 // 		.menu_item
 // 			padding-right: 0
 // 			border: none
-// 			margin: 10px 0
 // 		.menu_link
 // 			font-size: 20px
-		
+
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left:  -100%
+		width: 60%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .8)
+		text-align: center
+		transition: 0.8s all
+		&_active
+			left: 0
+		.menu_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		.menu_link
+			font-size: 20px
+	.footer_wrapper > div
+		display: flex
+		margin: 0 auto;
+		justify-content: center
+		width: 100%
+		margin-top: 20px
+	.footer_wrapper
+		flex-direction: column
+	.burger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: white
+			margin-bottom: 2px
+			transition: 0.9s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)

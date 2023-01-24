@@ -43,10 +43,15 @@ nav {
 /* line 24, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .menu_item {
   border-right: 2px dotted black;
-  padding-right: 28pxs;
+  padding-right: 28px;
 }
 
 /* line 27, ../../../../../first_progect/bootstrap/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 29, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subheader {
   position: absolute;
   top: 50px;
@@ -55,14 +60,14 @@ nav {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 33, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 35, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subheader .subheader_logo {
   display: block;
   max-width: 100%;
   margin-top: 16px;
 }
 
-/* line 37, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 39, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subheader .subheader_official {
   margin-top: 6px;
   opacity: 0.5;
@@ -71,7 +76,7 @@ nav {
   font-weight: 400;
 }
 
-/* line 43, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 45, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subheader .subheader_call {
   color: #ffffff;
   font-size: 12px;
@@ -80,7 +85,7 @@ nav {
   text-align: right;
 }
 
-/* line 49, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 51, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subheader .subheader_phone {
   display: block;
   margin-top: 8px;
@@ -92,7 +97,7 @@ nav {
   line-height: 12px;
 }
 
-/* line 58, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 60, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subheader .subheader_btn {
   margin-top: 19px;
   width: 172px;
@@ -114,14 +119,14 @@ nav {
   background-color: #1eacc7;
 }
 
-/* line 74, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 76, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .promo {
   min-height: 800px;
   background: url("../img/uber_bg.png") center center/cover no-repeat;
   padding: 150px 0 135px 0;
 }
 
-/* line 78, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 80, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .promo .promo_header {
   color: #ffffff;
   font-weight: 700;
@@ -132,7 +137,7 @@ nav {
   text-align: center;
 }
 
-/* line 86, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 88, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .promo .promo_subheader {
   color: #ffffff;
   font-weight: 700;
@@ -144,7 +149,7 @@ nav {
   text-align: center;
 }
 
-/* line 95, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 97, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .promo .promo_descr {
   color: #ffffff;
   font-size: 18px;
@@ -154,7 +159,7 @@ nav {
   margin-top: 23px;
 }
 
-/* line 102, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 104, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .promo .promo_btn {
   display: block;
   margin: 118px auto 0 auto;
@@ -171,12 +176,12 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 116, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 118, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .reasons {
   padding: 71px 0 65px 0;
 }
 
-/* line 118, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 120, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .label {
   margin: 0 auto;
   height: 24px;
@@ -190,7 +195,7 @@ nav {
   text-align: center;
 }
 
-/* line 129, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 131, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .title {
   margin-bottom: 0;
   margin-top: 38px;
@@ -201,7 +206,7 @@ nav {
   text-align: center;
 }
 
-/* line 139, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 141, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .reasons_block {
   display: flex;
   justify-content: center;
@@ -209,7 +214,7 @@ nav {
   margin-top: 35px;
 }
 
-/* line 144, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 146, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .reasons_round {
   display: flex;
   justify-content: center;
@@ -221,12 +226,12 @@ nav {
   border-radius: 100%;
 }
 
-/* line 153, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 155, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .reasons .reasons_descr {
   width: 343px;
 }
 
-/* line 155, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 157, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .reasons .reasons_descr .reasons_subtitle {
   line-height: 21px;
   color: #1eacc7;
@@ -234,7 +239,7 @@ nav {
   font-weight: 400;
 }
 
-/* line 160, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 162, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .reasons .reasons_descr .reasons_text {
   color: #202020;
   font-size: 15px;
@@ -242,7 +247,7 @@ nav {
   line-height: 21px;
 }
 
-/* line 165, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 167, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile {
   min-height: 860px;
   padding: 48px 0 68px 0;
@@ -250,12 +255,12 @@ nav {
   padding-top: 92px;
 }
 
-/* line 170, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 172, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile .row {
   margin-top: 32px;
 }
 
-/* line 172, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 174, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item {
   position: relative;
   width: 320px;
@@ -265,37 +270,37 @@ nav {
   padding-top: 92px;
 }
 
-/* line 179, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 181, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_1 {
   background: url("../img/card1.png");
 }
 
-/* line 181, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 183, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_2 {
   background: url("../img/card2.png");
 }
 
-/* line 183, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 185, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_3 {
   background: url("../img/card3.png");
 }
 
-/* line 185, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 187, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_4 {
   background: url("../img/card4.png");
 }
 
-/* line 187, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 189, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_5 {
   background: url("../img/card5.png");
 }
 
-/* line 189, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 191, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_6 {
   background: url("../img/card6.png");
 }
 
-/* line 191, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 193, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_subtitle {
   font-style: normal;
   font-weight: 400;
@@ -307,7 +312,7 @@ nav {
   color: #FFFFFF;
 }
 
-/* line 200, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 202, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_plus {
   display: flex;
   bottom: 35px;
@@ -325,7 +330,7 @@ nav {
   cursor: pointer;
 }
 
-/* line 215, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 217, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_plus::before {
   content: '';
   display: block;
@@ -334,7 +339,7 @@ nav {
   background-color: #1eacc7;
 }
 
-/* line 221, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 223, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_plus::after {
   content: '';
   display: block;
@@ -346,18 +351,18 @@ nav {
   transform: translateX(-50%);
 }
 
-/* line 231, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 233, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .mobile_item_plus:hover:after, .mobile_item_plus:hover:before {
   background-color: #ff5656;
   transition: 1s all;
 }
 
-/* line 236, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 238, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subtitle {
   text-align: center;
 }
 
-/* line 240, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 242, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .choice {
   position: relative;
   min-height: 895px;
@@ -365,7 +370,7 @@ nav {
   background: url("../img/mobile_bg.png") center center/cover no-repeat;
 }
 
-/* line 245, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 247, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .choice_img {
   position: relative;
   display: block;
@@ -374,7 +379,7 @@ nav {
   z-index: 2;
 }
 
-/* line 251, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 253, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .choice_descr {
   text-align: center;
   color: #222222;
@@ -383,7 +388,7 @@ nav {
   line-height: 24px;
 }
 
-/* line 257, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 259, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .choice .black {
   position: absolute;
   top: 0;
@@ -394,7 +399,7 @@ nav {
   z-index: 1;
 }
 
-/* line 265, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 267, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .label {
   position: relative;
   margin: 0 auto;
@@ -410,18 +415,18 @@ nav {
   z-index: 2;
 }
 
-/* line 278, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 280, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .label_white {
   background-color: #fff;
   color: #000;
 }
 
-/* line 281, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 283, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .label_min {
   width: 76px;
 }
 
-/* line 284, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 286, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .title {
   position: relative;
   margin-bottom: 0;
@@ -435,12 +440,12 @@ nav {
   z-index: 2;
 }
 
-/* line 295, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 297, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .title_white {
   color: #fff;
 }
 
-/* line 298, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 300, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subtitle {
   position: relative;
   margin-top: 19px;
@@ -451,47 +456,47 @@ nav {
   z-index: 2;
 }
 
-/* line 306, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 308, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .subtitle_white {
   color: #fff;
 }
 
-/* line 309, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 311, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require {
   padding: 68px 0 84px 0;
 }
 
-/* line 311, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 313, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require_block {
   margin: 33px 0;
 }
 
-/* line 313, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 315, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require_block_npm {
   margin-bottom: 0px;
 }
 
-/* line 315, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 317, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require_title {
   font-weight: 300;
   font-size: 17px;
   color: #1CA8C3;
 }
 
-/* line 319, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 321, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require_list {
   list-style-type: none;
   padding-left: 50px;
   margin-top: 22px;
 }
 
-/* line 323, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 325, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require_list li {
   position: relative;
   margin-bottom: 10px;
 }
 
-/* line 326, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 328, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require_list li:before {
   content: '';
   display: block;
@@ -504,22 +509,22 @@ nav {
   transform: translateY(-50%);
 }
 
-/* line 336, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 338, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require_descr {
   color: #1CA8C3;
 }
 
-/* line 339, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 341, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require .warning .require_title {
   color: #ff5656;
 }
 
-/* line 343, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 345, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .require .warning .require_list li::before {
   background: url("../img/ch2.png") center center/cover no-repeat;
 }
 
-/* line 346, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 348, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .world {
   position: relative;
   min-height: 717px;
@@ -527,7 +532,7 @@ nav {
   background: url("../img/world_bg.png") center center/cover no-repeat;
 }
 
-/* line 351, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 353, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .world_link {
   position: absolute;
   left: 50%;
@@ -541,23 +546,23 @@ nav {
   color: #1fbad6;
 }
 
-/* line 362, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 364, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .world_link:hover {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 367, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 369, ../../../../../first_progect/bootstrap/sass/_general.sass */
 footer {
   padding: 14px 23px 39px 23px;
 }
 
-/* line 370, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 372, ../../../../../first_progect/bootstrap/sass/_general.sass */
 footer a:hover {
   text-decoration: none;
 }
 
-/* line 373, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 375, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_divider {
   width: 299px;
   height: 4px;
@@ -565,7 +570,7 @@ footer a:hover {
   margin: 0 auto;
 }
 
-/* line 378, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 380, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_wrapper {
   display: flex;
   justify-content: space-between;
@@ -573,25 +578,25 @@ footer a:hover {
   padding-top: 32px;
 }
 
-/* line 383, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 385, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_wrapper > div {
   width: 33%;
 }
 
-/* line 385, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 387, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_wrapper > div:nth-child(3) {
   display: flex;
   justify-content: flex-end;
 }
 
-/* line 388, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 390, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_social {
   width: 160px;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 392, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 394, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_social_item {
   display: flex;
   justify-content: center;
@@ -603,25 +608,25 @@ footer a:hover {
   border-radius: 100%;
 }
 
-/* line 401, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 403, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_social_item i {
   color: #fff;
 }
 
-/* line 403, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 405, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_links {
   width: 390px;
   margin: 0 auto;
 }
 
-/* line 406, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 408, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_links_main {
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
 }
 
-/* line 410, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 412, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_links_main a {
   color: #070716;
   font-size: 15px;
@@ -629,14 +634,14 @@ footer a:hover {
   text-transform: uppercase;
 }
 
-/* line 415, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 417, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_links_sub {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
 
-/* line 419, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 421, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_links_sub a {
   color: #999999;
   font-size: 11px;
@@ -644,7 +649,7 @@ footer a:hover {
   text-transform: uppercase;
 }
 
-/* line 424, ../../../../../first_progect/bootstrap/sass/_general.sass */
+/* line 426, ../../../../../first_progect/bootstrap/sass/_general.sass */
 .footer_links_lang {
   display: block;
   margin: 0 auto;
@@ -711,25 +716,81 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
-  /* line 38, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  /* line 54, ../../../../../first_progect/bootstrap/sass/_media.sass */
   .menu {
     position: fixed;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     top: 0;
-    right: 0;
-    width: 50%;
+    left: -100%;
+    width: 60%;
     height: 100vh;
     padding: 20px 15px;
     background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    transition: 0.8s all;
   }
-  /* line 47, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  /* line 67, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 69, ../../../../../first_progect/bootstrap/sass/_media.sass */
   .menu .menu_item {
     padding-right: 0;
     border: none;
+    margin: 10px 0;
   }
-  /* line 50, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  /* line 73, ../../../../../first_progect/bootstrap/sass/_media.sass */
   .menu .menu_link {
     font-size: 20px;
+  }
+  /* line 75, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .footer_wrapper > div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* line 81, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .footer_wrapper {
+    flex-direction: column;
+  }
+  /* line 83, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .burger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 91, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .burger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2px;
+    transition: 0.9s all;
+  }
+  /* line 99, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .burger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 101, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .burger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 103, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .burger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 105, ../../../../../first_progect/bootstrap/sass/_media.sass */
+  .burger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
   }
 }
 
